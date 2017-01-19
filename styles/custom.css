@@ -2,6 +2,24 @@
 	background-color: yellow;
 }
 
+.calendar-dow-1:not(.adjacent-month), .calendar-dow-2:not(.adjacent-month), .calendar-dow-3:not(.adjacent-month), .calendar-dow-4:not(.adjacent-month), .calendar-dow-5:not(.adjacent-month){
+	background-color: #00B700;
+}
+
 label:not(:nth-child(1)), button#submit_button{
 	margin-left: 10px;
+}
+
+.container{
+	display: inline-block;
+}
+
+.holidays{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+
+.holidays table{
+	width: 100%;
 }
