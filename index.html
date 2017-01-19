@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Prosoft</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+		<!-- CSS Libraries -->
+	    <link href="styles/clndr.css" rel="stylesheet">
+        <link href="styles/custom.css" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrapper">
+            <label><b>Start date</b></label>
+            <input type="text" placeholder="YYYY-MM-DD" id="start_date" name="Start date">
+
+            <label><b>Number of days</b></label>
+            <input type="text" placeholder="" id="number_days" name="Number of days">
+
+            <label><b>Country code</b></label>
+            <input type="text" placeholder="" id="country_code" name="Country code">
+
+            <button type="submit" id="submit_button">Submit</button>
+        </div>
+        <div class="container">
+            <div class="cal1"></div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/underscore/underscore-min.js"></script>
+        <script src="./node_modules/moment/min/moment.min.js"></script>
+        <script src="./node_modules/clndr/clndr.min.js"></script>
+        <script src="./scripts/main.js"></script>
+	</body>
+</html>

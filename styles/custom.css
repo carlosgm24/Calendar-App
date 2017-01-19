@@ -1,0 +1,7 @@
+.calendar-dow-0:not(.adjacent-month), .calendar-dow-6:not(.adjacent-month){
+	background-color: yellow;
+}
+
+label:not(:nth-child(1)), button#submit_button{
+	margin-left: 10px;
+}
