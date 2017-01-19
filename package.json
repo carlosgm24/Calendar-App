@@ -1,0 +1,21 @@
+{
+  "name": "recruitment",
+  "version": "1.0.0",
+  "description": "prosoft recruitment test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "cegm1991@gmail.com",
+  "license": "",
+  "dependencies": {
+    "clndr": "^1.4.7",
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}
