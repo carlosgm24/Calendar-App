@@ -8,6 +8,7 @@ Before starting:
 
 ## Observations
 * This web app isn't responsive, open in a desktop/laptop.
+* Since the holidays integration wasn't complete (the orange days) I added a table to demostrate that the API call and information rendering was being made. The specifications said not to add anything extra than what is asked but I added this table so the call to the API could be noticed.
 
 ## Information from the email
 a. A list of any requirements you could not implement.
